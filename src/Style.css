@@ -1,0 +1,26 @@
+.Style-header{
+    background-color: beige;
+    padding: 15px;
+    text-align: center;
+    color: brown;
+    font-size: large;
+}
+.People-header{
+
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    background-color: aliceblue;
+    color:blue;
+    padding: 20px;
+
+}
+#People-footer{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    background-color: red;
+    color:black;
+    padding: 20px;
+
+}
