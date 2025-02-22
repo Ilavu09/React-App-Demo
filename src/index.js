@@ -10,11 +10,12 @@ import Main from "./APINew/Main";
 import FetchData from "./FetchAPI/FetchData";
 import ColorApp from "./UseContext/ColorApp";
 import MainContext from "./Context/MainContext";
+import Accordian from "./components/Accordian/main";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+   <Accordian/>
   </React.StrictMode>
 );
 

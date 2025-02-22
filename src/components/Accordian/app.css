@@ -1,0 +1,70 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  padding: 10px;
+  margin: 15px;
+  background-color: rgb(249, 148, 194);
+  border-radius: 10px;
+}
+.accordian {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(249, 148, 194);
+  border-radius: 10px;
+  width: 600px;
+  padding: 20px;
+}
+.accordian button {
+  font-size: 20px;
+  padding: 5px 0px;
+  margin-bottom: 5px;
+  margin-left: 170px;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 200px;
+  background: #d11bb3;
+  border: none;
+}
+.question-container {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+.questions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  background: #d11bb3;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+.toggle-icon {
+  font-size: 20px;
+  font-weight: bold;
+}
+.answers {
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 20px;
+  color: #333;
+}
+.no-data {
+  text-align: center;
+  font-size: 20px;
+  color: #0a0909;
+  padding: 20px;
+}
